@@ -216,5 +216,5 @@ class ReverseSDE(eqx.Module):
             axi.set_yticklabels([])
 
         plt.subplots_adjust(wspace=0, hspace=0)
-        plt.savefig("example_fig.png", bbox_inches='tight')
+        plt.savefig("example_fig.png", bbox_inches="tight")
         plt.clf()

@@ -10,7 +10,7 @@ The main files to look at are as follows:
 To get started, create a virtual environment and install required packages as follows:
 
 ```
-poetry init
+poetry install
 poetry shell
 ```
 

@@ -1,0 +1,12 @@
+.venv
+venv
+MNIST
+.vscode
+lightning_logs
+outputs
+__pycache__
+*/**/.ipynb_checkpoints
+.ipynb_checkpoints
+current_opt_state
+current_model.eqx
+*.png
