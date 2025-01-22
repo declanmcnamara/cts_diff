@@ -10,9 +10,8 @@ The main files to look at are as follows:
 To get started, create a virtual environment and install required packages as follows:
 
 ```
-python -m venv venv
-source venv/bin/activate
-python -m pip install -r requirements.txt
+poetry init
+poetry shell
 ```
 
 Afterward, you can run the main training loop with `python main.py`, or add this virtual environment to Jupyter and work through the `demos/Tutorial.ipynb` notebook.
