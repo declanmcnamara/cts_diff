@@ -1,0 +1,25 @@
+seed: 473829
+
+data:
+  dataset_name: "mnist"
+
+model:
+  model_type: "UNet"
+  is_biggan: false
+  dim_mults: [1, 1, 1]
+  hidden_size: 32
+  heads: 4
+  dim_head: 64
+  dropout_rate: 0.3
+  num_res_blocks: 2
+  attn_resolutions: [8, 16, 32]
+  final_activation: null
+
+optimizer:
+  _target_: optax.adabelief
+  learning_rate: 1e-4
+
+training:
+  batch_size: 64
+  n_steps: 100000
+  device: 0
